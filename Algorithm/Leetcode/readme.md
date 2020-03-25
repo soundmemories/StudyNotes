@@ -8,7 +8,7 @@
 - 树和图的算法：
     - 递归：DFS参考前序遍历、BFS参考层序遍历。
     - 非递归：DFS用栈、BFS用队列。
-- 对列建议使用`from collections import deque`支持从头和尾部的常数时间append/pop 操作。若使用 Python的list，通过list.pop(0)去除头部会消耗$O(n)$的时间。
+- 队列建议使用`from collections import deque`支持从头和尾部的常数时间append/pop 操作。若使用 Python的list，通过list.pop(0)去除头部会消耗$O(n)$的时间。
 
 
 
